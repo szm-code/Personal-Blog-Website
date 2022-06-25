@@ -1,5 +1,16 @@
 body {
-    background-color: burlywood;
+    background-color: #66ddf1
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 3em;
+    text-decoration: underline;
+    color: white;
 }
 
 nav {
@@ -8,5 +19,10 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     flex-direction: column;
+}
+
+nav:hover {
+    color: white;
+    background-color: pink;
 
 }
