@@ -40,18 +40,18 @@ p {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 
 span {
     color: grey;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 a {
-    text-decoration: dashed;
+    text-decoration: none;
     margin: 1.6rem 0;
     color: gray;
     font-size: 1.6rem;
@@ -73,6 +73,72 @@ hr {
 }
 
 /* Navigation Section Below */
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu a {
+    border-bottom: none;
+    color: var(--pink);
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+/* .mobile-menu {
+    display: none;
+} */
+
+/* Banner Section */
+
+.banner {
+    display: grid;
+    grid-template-columns: 2fr 1 fr;
+}
+
+
+/* Media Queries Below */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 1.5px;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    /* .mobile-menu {
+        display: block;
+        font-size: 24px;
+    } */
+
+    .menu {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        z-index: 99;
+        /* display: none; */
+    }
+
+    .menu a {
+        padding: 32px 0;
+        font-size: 18px;
+    }
+}
 
 /* @media(max-width:320px) h1 {}
 
