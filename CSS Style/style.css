@@ -5,6 +5,8 @@
     --secondary: #D7F2E7;
     --pink: #EC5798;
     --hotpink: #DF4789;
+    --lavendar: #8e58e4;
+
 }
 
 html {
@@ -96,9 +98,31 @@ nav .menu a {
 
 .banner {
     display: grid;
-    grid-template-columns: 2fr 1 fr;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
 }
 
+.banner-left {
+    background-image: url(../images/flowers-1.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner .banner-right {
+    background-color: var(--lavendar);
+}
+
+.banner .banner-content {
+    position: absolute;
+    background-color: white;
+    padding: 32px;
+    width: 35%;
+    top: 30%;
+    left: 65%;
+
+}
 
 /* Media Queries Below */
 @media (max-width: 768px) {
@@ -137,6 +161,21 @@ nav .menu a {
     .menu a {
         padding: 32px 0;
         font-size: 18px;
+    }
+
+    .banner {
+        padding: 50px;
+    }
+
+    .banner .banner-content {
+        left: 45%;
+    }
+
+    span {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+
     }
 }
 
