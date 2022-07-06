@@ -187,6 +187,10 @@ a {
     margin-top: 0;
 }
 
+h3 {
+    font-size: 3rem;
+}
+
 
 /* footer */
 
@@ -234,7 +238,7 @@ footer p {
     }
 
     h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         letter-spacing: 1.5px;
     }
 
@@ -316,4 +320,21 @@ footer p {
         border: 1px solid var(--hotpink);
         border-radius: 50%;
         padding: 8px;
+    }
+
+    .pagination {
+        display: inline-block;
+    }
+
+    .pagination .active {
+        border: 1px solid var(--hotpink);
+        background-color: var(--primary);
+    }
+
+    .pagination a {
+        color: var(--lavendar);
+        float: left;
+        padding: 2px 4px;
+        text-decoration: none;
+        border: 0;
     }
