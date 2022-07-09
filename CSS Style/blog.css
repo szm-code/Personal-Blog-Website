@@ -39,7 +39,7 @@ main {
 .pagination a {
     color: var(--lavendar);
     float: left;
-    padding: 8px 16px;
+    padding: 2px 4px;
     text-decoration: none;
     border: 0;
 }
