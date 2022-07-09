@@ -1,5 +1,185 @@
 /* Media Queries Below */
-@media (max-width: 768px) {
+@media screen and (max-width: 599px){
+
+    :root {
+            --primary: #B8E8D1;
+            --secondary: #D7F2E7;
+            --pink: #EC5798;
+            --hotpink: #DF4789;
+            --lavendar: #8e58e4;
+    
+        }
+
+
+
+/* NAVIGATION */
+nav{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* banner */
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 100%;
+}
+
+
+.banner .banner-right{
+    display: none;
+    width: 100%;
+}
+
+
+
+/* pagination */
+
+.pagination a{
+    
+    
+}
+  
+
+
+/* blog */
+
+main{
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 1fr;
+    
+}
+
+.blog{
+    grid-template-columns: 1fr;
+}
+
+
+
+
+/* Aside */
+ 
+aside{
+    display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  only screen and(max-width:599px){
+    body{
+        background-color: blue;
+    }
+    .site-container{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    nav{
+        float: none;
+        width: 100%;
+    }
+
+
+    .responsive{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .site-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        text-align: right;
+        
+    }
+
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 768px;
+        
+    }
+
+    .banner-right{
+        display: none;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blog{
+        display:grid;
+        grid-template-columns: auto;
+
+    }
+    
+    aside{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen (min-width: 600px) and (max-width: 900px) {
 
     h1 {
         font-size: 3rem;
@@ -110,3 +290,5 @@
         text-decoration: none;
         border: 0;
     }
+
+    */

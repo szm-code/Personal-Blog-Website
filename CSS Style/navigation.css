@@ -13,19 +13,3 @@ nav .menu a {
     font-weight: 700;
     margin-left: 24px;
 }
-
-/* Navigation Section Below */
-
-nav {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav .menu a {
-    border-bottom: none;
-    color: var(--pink);
-    font-weight: 700;
-    margin-left: 24px;
-}

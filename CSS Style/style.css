@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&family=Playfair+Display:wght@800&display=swap');
 @import "navigation.css";
 @import "banner.css";
+@import "blog.css";
+@import "aside.css";
+@import "footer.css";
 @import "media.css";
 
 :root {
@@ -88,113 +91,4 @@ button {
     opacity: 75%;
 }
 
-/* Blog Section */
 
-main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 50px;
-    gap: 60px;
-}
-
-.blog {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-}
-
-.blog .thumbnail {
-    object-fit: contain;
-}
-
-.blog-post {
-    background-color: var(--primary);
-    margin: 24px 0;
-    padding: 16px;
-}
-
-.blog-content {
-    margin-top: 24px;
-}
-
-.pagination {
-    display: inline-block;
-}
-
-.pagination .active {
-    border: 1px solid var(--hotpink);
-    background-color: var(--primary);
-}
-
-.pagination a {
-    color: var(--lavendar);
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border: 0;
-}
-
-/* Aside Section */
-.wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.wrapper .thumb {
-    flex: 1;
-}
-
-.wrapper .content {
-    flex: 2;
-    padding: 16px;
-}
-
-.wrapper span,
-p,
-a {
-    font-size: 1.4rem;
-    margin-top: 0;
-}
-
-h3 {
-    font-size: 3rem;
-}
-
-.content-mostcommented {
-    color: var(--lavendar);
-}
-
-.content-paragraph {
-    color: green;
-}
-
-/* footer */
-
-footer {
-    background-color: var(--primary);
-    margin-top: 50px;
-    padding: 50px 0;
-}
-
-footer p {
-    color: var(--hotpink);
-}
-
-.footer-left {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.social-icons i {
-    color: var(--hotpink);
-    font-size: 18px;
-    border: 1px solid var(--hotpink);
-    border-radius: 50%;
-    padding: 8px;
-}

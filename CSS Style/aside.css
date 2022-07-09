@@ -1,0 +1,33 @@
+/* Aside Section */
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .thumb {
+    flex: 1;
+}
+
+.wrapper .content {
+    flex: 2;
+    padding: 16px;
+}
+
+.wrapper span,
+p,
+a {
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.content-mostcommented {
+    color: var(--lavendar);
+}
+
+.content-paragraph {
+    color: green;
+}
